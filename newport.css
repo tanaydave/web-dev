@@ -1,0 +1,105 @@
+.linkedin,.facebook,.insta{
+  font-size: 30px;
+ 
+  
+  
+}
+.linkedin{
+  position:relative;
+  left:20px;
+
+}
+.facebook{
+  position:relative;
+  right:20px;
+
+}
+.bio{
+  font-size: 40px;
+  
+  text-align: center;
+  
+}
+
+#intro {
+  
+  position:relative;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0%   { left:500px; }
+  100%  { left:0px; }
+
+}
+#about{
+  
+  color: white;
+  padding-top: 40px;
+  
+  background-color:bisque;
+}
+
+.logo{
+  position:relative;
+  top:35px;
+  bottom:35px;
+  left:150px;
+  float:left;
+  width:150px;
+  height:130px;
+}
+
+#lol{
+  
+  position:relative;
+  animation-name: introduction;
+  animation-duration: 2s;
+}
+
+@keyframes introduction {
+  100%   { left:0px; }
+  0% { left:-500px; }
+
+}
+#skills {
+  width:auto;
+  background-color:bisque;
+  color:black;
+
+}
+#interest {
+  width:auto;
+  background-color:bisque;
+  color:black;
+}
+#soft
+ {
+  width:auto;
+  background-color:bisque;
+  color:black;
+ }
+#words{
+  text-decoration:underline ;
+}
+.list{
+  list-style-type: square;
+}
+.more{
+  padding-left: 40%;
+  color:black;
+}
+#tanay{
+  font-weight:800;
+  font-size: 35px;
+ 
+  padding-left:180px;
+  padding-top:31px;
+  font-family:cursive;
+}
+.progress-bar{
+  background-color:black;
+ 
+}
+
